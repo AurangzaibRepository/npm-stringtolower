@@ -4,14 +4,8 @@ function lowerCase(text) {
   let result = '';
 
   for (const character of text) {
-
-    // Return same character if not found in mappings
-    if (!(character in characterMappings)) {
-      result += character;
-      continue;
-    }
-
-    result += characterMappings[character];
+    result +=
+      character in characterMappings ? characterMappings[character] : character;
   }
 
   return result;
