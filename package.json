@@ -1,5 +1,5 @@
 {
-  "name": "@zaib_npm/gitstring-to-lower",
+  "name": "@zaib_npm/string-to-lower",
   "version": "1.0.1",
   "description": "This package converts given string to lower case",
   "main": "index.js",
