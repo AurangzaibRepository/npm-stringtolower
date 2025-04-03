@@ -17,6 +17,4 @@ function lowerCase(text) {
   return result;
 }
 
-console.log(lowerCase("HELLo WorlD  !123"));
-
 module.exports = lowerCase;
